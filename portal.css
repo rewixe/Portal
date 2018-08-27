@@ -1,0 +1,89 @@
+QWidget
+{
+    color: #003399;
+    background-color: #ccffff;;
+}
+
+QRadioButton
+{
+	font-size: 15px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	/*text-align: center;
+	vertical-align: center;*/
+}
+
+QPushButton
+{
+	color: #003399;
+    background-color: #b3c6ff;
+    border-width: 2px;
+    border-color: #1e1e1e;
+    border-style: solid;
+    border-radius: 6;
+	background-color: #b0e0e6;
+	font-size: 20px;
+}
+
+QPushButton:hover
+{
+	border-color: #cc0000;
+	color: #cc0000;
+}
+
+QWidget:item:selected
+{
+    background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #ffa02f, stop: 1 #d7801a);
+}
+
+QLabel
+{
+  font-size: 35px;
+  font-family: Helvetica;
+  color: black;
+}
+
+#nameLabel
+{
+	font-size: 35px;
+	color: black;
+}
+
+#entryLabel
+{
+	font-size: 18px;
+	color: black;
+}
+
+#introLabel
+{
+	font-size: 18px;
+	color: black;
+}
+
+#instruct
+{
+	font-size: 16px;
+	color:black;
+}
+
+#info
+{
+	font-size: 20px;
+	color: black;
+}
+
+#optLbl
+{
+	font-size: 30px;
+	color: black;
+}
+
+#slogan
+{
+	font-size: 16px;
+}
+
+
+
